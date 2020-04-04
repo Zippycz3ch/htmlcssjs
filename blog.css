@@ -8,23 +8,41 @@ body {
 }
 
 .article {
-    border-bottom: 1px solid #bdc3c7;
     width: 95%;
     margin: auto;
 }
 
 p.perex {
     border-left: 5px solid #bdc3c7;
-    margin-left: 5px;
     padding-left: 5px;
 }
 h2 {
     color: #2c3e50 ;
     font-weight: 600;
+    font-size: 2.0rem;
 }
 
 h3 {
     color: #3498db;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
+}
+
+hr {
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
